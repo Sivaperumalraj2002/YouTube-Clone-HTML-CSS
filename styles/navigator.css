@@ -1,0 +1,24 @@
+.navigator {
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    bottom: 0px;
+    width: 74px;
+    font-size: 10px;
+}
+
+.navigator div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0px;
+}
+
+.navigator div:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+.navigator img {
+    width: 24px;
+}
+

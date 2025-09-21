@@ -1,0 +1,133 @@
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(238, 238, 238);
+    background-color: white;
+    border-bottom-style: solid;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.hamburger-menu {
+    width: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.youtube-logo {
+    width: 95px;
+}
+
+.middle-section {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 25px;
+    max-width: 500px;
+}
+
+.search-bar {
+    height: 32px;
+    border-color: rgb(224, 224, 224);
+    border-style: solid;
+    padding-left: 12px;
+    flex: 1;
+    border-radius: 2px;
+    border-width: 1px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0px;
+}
+
+.search-bar::placeholder {
+    font-size: 16px;
+}
+
+.search-button {
+    width: 62px;
+    height: 36px;
+    margin-left: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: rgb(224, 224, 224);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.search-button img {
+    height: 24px;
+}
+
+.voice-search-button {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+    border-radius: 18px;
+    border: none;
+    position: relative;
+}
+
+.voice-search img {
+    height: 24px;
+}
+
+.tooltip {
+    background-color: rgb(121, 121, 121);
+    color: white;
+    position: absolute;
+    top: 45px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 2px;
+    white-space: nowrap;
+    opacity: 0;
+}
+
+.search-button:hover .tooltip ,
+.voice-search-button:hover .tooltip {
+    opacity: 1;
+}
+
+.right-section {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    margin-right: 20px;
+}
+
+.create-img {
+    width: 26px;
+}
+
+.app-img {
+    width: 24px;
+}
+
+.notification-img {
+    width: 24px;
+}
+
+.account-img {
+    width: 30px;
+    height: 30px;
+}

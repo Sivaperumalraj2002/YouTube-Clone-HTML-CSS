@@ -2,6 +2,8 @@
 
 A static clone of the YouTube homepage built purely with HTML and CSS — meant for practice, design/markup/layout replication, and honing front-end skills.
 
+Link of hosted site: https://www.youtube.com/watch?v=G3e-cpL7ofc
+
 ---
 
 ## 🔍 Project Overview
